@@ -4,5 +4,5 @@
 ]]></content>
 <tabTrigger>phpi</tabTrigger>
 <description>php expand</description>
-<scope>embedding.php, text.html.basic, meta.tag.block.any.html, meta.attribute-with-value.class.html, string.quoted.double.html, meta.class-name.html, meta.embedded.line.php, punctuation.section.embedded.begin.php</scope>
+<scope>embedding.php, text.html.basic, meta.tag.block.any.html, meta.attribute-with-value.class.html, string.quoted.double.html, meta.class-name.html, meta.embedded.line.php, punctuation.section.embedded.begin.php, text.blade, text.html.blade, entity.name.tag.blade, punctuation.section.embedded.begin.blade</scope>
 </snippet>
