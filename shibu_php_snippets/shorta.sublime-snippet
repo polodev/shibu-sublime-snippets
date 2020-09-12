@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+\$shortarray2_will_be_replace = "\barray(\(((?>[^()]++|(?1))*)\))";
+]]></content>
+<tabTrigger>shorta</tabTrigger>
+<description>short Array</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>

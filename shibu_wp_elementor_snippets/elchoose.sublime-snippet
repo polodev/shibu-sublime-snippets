@@ -1,0 +1,31 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'text_align',
+  [
+    'label' => __( 'Alignment', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::CHOOSE,
+    'options' => [
+      'left' => [
+        'title' => __( 'Left', 'plugin-domain' ),
+        'icon' => 'fa fa-align-left',
+      ],
+      'center' => [
+        'title' => __( 'Center', 'plugin-domain' ),
+        'icon' => 'fa fa-align-center',
+      ],
+      'right' => [
+        'title' => __( 'Right', 'plugin-domain' ),
+        'icon' => 'fa fa-align-right',
+      ],
+    ],
+    'default' => 'center',
+    'toggle' => true,
+  ]
+);
+
+]]></content>
+<tabTrigger>elchoose</tabTrigger>
+<description>elementor choose</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+\$attachment_id        = get_post_thumbnail_id( \$post );
+\$img_alt              = \$attachment_id ?  Helper::get_attachment_alt( \$attachment_id ) : \$post->post_title ;
+]]></content>
+<tabTrigger>wpimgalt</tabTrigger>
+<description>wp alternative</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>

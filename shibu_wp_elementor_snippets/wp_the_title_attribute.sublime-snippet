@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<?php the_title_attribute(); ?>
+]]></content>
+<tabTrigger>wp_the_title_attribute</tabTrigger>
+<description>the title attribute</description>
+<scope>embedding.php, text.html.basic, meta.embedded.line.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

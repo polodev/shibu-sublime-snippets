@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'website_link',
+  [
+    'label' => __( 'Link', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::URL,
+    'placeholder' => __( 'https://your-link.com', 'plugin-domain' ),
+    'show_external' => true,
+    'default' => [
+      'url' => '',
+      'is_external' => true,
+      'nofollow' => true,
+    ],
+  ]
+);
+
+]]></content>
+<tabTrigger>elurl</tabTrigger>
+<description>elementor url</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

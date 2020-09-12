@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'due_date',
+  [
+    'label' => __( 'Due Date', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::DATE_TIME,
+  ]
+);
+
+]]></content>
+<tabTrigger>eldatetime</tabTrigger>
+<description>elementor date time</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

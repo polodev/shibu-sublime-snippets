@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'custom_dimension',
+  [
+    'label' => __( 'Image Dimension', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::IMAGE_DIMENSIONS,
+    'description' => __( 'Crop the original image size to any custom size. Set custom width or height to keep the original size ratio.', 'plugin-name' ),
+    'default' => [
+      'width' => '',
+      'height' => '',
+    ],
+  ]
+);
+
+]]></content>
+<tabTrigger>elimagedimension</tabTrigger>
+<description>elementor image dimension</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'border_popover_toggle',
+  [
+    'label' => __( 'Border', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::POPOVER_TOGGLE,
+    'label_off' => __( 'Default', 'your-plugin' ),
+    'label_on' => __( 'Custom', 'your-plugin' ),
+    'return_value' => 'yes',
+    'default' => 'yes',
+  ]
+);
+]]></content>
+<tabTrigger>elpopover_toggle</tabTrigger>
+<description>elementor POPOVER_TOGGLE</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

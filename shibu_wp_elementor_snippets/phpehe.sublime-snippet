@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<?php esc_html_e( '${2}', '${1:domain}' );?>
+]]></content>
+<tabTrigger>phpehe</tabTrigger>
+<description>esc_html_e function with php block</description>
+<scope>embedding.php, text.html.basic, meta.embedded.line.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

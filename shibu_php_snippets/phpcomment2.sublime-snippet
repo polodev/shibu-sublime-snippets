@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+/**
+ * ${0}
+ */
+]]></content>
+<tabTrigger>phpcomment2</tabTrigger>
+<description>php comment comply with css comment</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, comment.block.documentation.phpdoc.php, punctuation.definition.comment.begin.php</scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'entrance_animation',
+  [
+    'label' => __( 'Entrance Animation', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::ANIMATION,
+    'prefix_class' => 'animated ',
+  ]
+);
+
+]]></content>
+<tabTrigger>elanimation</tabTrigger>
+<description>elementor animation</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+@media screen and (max-width: ${1}px) {
+  ${0}
+}
+]]></content>
+<tabTrigger>cssmediamax</tabTrigger>
+<description></description>
+<scope>source.less, meta.at-rule.media.css, keyword.control.at-rule.media.css, punctuation.definition.keyword.css</scope>
+</snippet>

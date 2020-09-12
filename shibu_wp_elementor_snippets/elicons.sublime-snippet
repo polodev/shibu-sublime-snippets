@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'icon',
+  [
+    'label' => __( 'Icon', 'text-domain' ),
+    'type' => \Elementor\Controls_Manager::ICONS,
+    'default' => [
+      'value' => 'fas fa-star',
+      'library' => 'solid',
+    ],
+  ]
+);
+
+]]></content>
+<tabTrigger>elicons</tabTrigger>
+<description>elementor icons</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

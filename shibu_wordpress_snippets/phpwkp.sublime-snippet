@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<?php echo wp_kses_post( ${0} ); ?>
+]]></content>
+<tabTrigger>phpwkp</tabTrigger>
+<description>wp_kses_post with php tag</description>
+<scope>embedding.php, text.html.basic, meta.embedded.line.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

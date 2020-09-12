@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+<?php if ( \$final_icon_image_url ): ?>
+  <img src="<?php echo esc_url( \$final_icon_image_url ); ?>" alt="SVG Icon">
+<?php else: ?>
+  <i class="<?php  echo esc_attr( \$final_icon_class ); ?>"></i>
+<?php endif ?>${0}
+]]></content>
+<tabTrigger>iconsvg2</tabTrigger>
+<description>icon svg body incase of ::icons</description>
+<scope>embedding.php, text.html.basic, meta.embedded.line.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

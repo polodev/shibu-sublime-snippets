@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+\$wp_customize->add_setting('${1:add_control_key}', array(
+	'default' => 'default',
+));
+\$wp_customize->add_control('${1:add_control_key}', array(
+	'label'    => '${3:label}',
+	'section'  => '${2:section_name}',
+	'type'     => 'text',
+	'settings' => '${1:add_control_key}',
+	'priority' => 1,
+));
+
+]]></content>
+<tabTrigger>wpcaddcontrol</tabTrigger>
+<description>wp customize add control and add settings</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>

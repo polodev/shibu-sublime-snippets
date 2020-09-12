@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+\$unixtimestamp =  strtotime( get_the_date() );
+echo date_i18n( get_option( 'date_format' ), \$unixtimestamp );
+]]></content>
+<tabTrigger>wpdate</tabTrigger>
+<description>wp i18n date</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php</scope>
+</snippet>

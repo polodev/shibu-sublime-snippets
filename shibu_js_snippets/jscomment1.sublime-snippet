@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+/*-------------------------------------
+## ${0}
+-------------------------------------*/
+]]></content>
+<tabTrigger>jscomment1</tabTrigger>
+<description>js comment style one</description>
+<scope>source.js, meta.group.js, meta.block.js, meta.conditional.js, comment.block.js, punctuation.definition.comment.begin.js</scope>
+</snippet>

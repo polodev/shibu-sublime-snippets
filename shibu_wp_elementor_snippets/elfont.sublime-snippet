@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'font_family',
+  [
+    'label' => __( 'Font Family', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::FONT,
+    'default' => "'Open Sans', sans-serif",
+    'selectors' => [
+      '{{WRAPPER}} .title' => 'font-family: {{VALUE}}',
+    ],
+  ]
+);
+
+]]></content>
+<tabTrigger>elfont</tabTrigger>
+<description>elmentor font</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

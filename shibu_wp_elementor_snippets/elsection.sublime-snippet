@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+\$this->start_controls_section(
+  '${1:unique_name}',
+  [
+    'label' => __( '${2:content_label}', '${3:domain}' ),
+    'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
+    ${4:'tab' => \Elementor\Controls_Manager::TAB_STYLE,}
+  ]
+);
+${0}
+\$this->end_controls_section();
+
+]]></content>
+<tabTrigger>elsection</tabTrigger>
+<description>elementor new section</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

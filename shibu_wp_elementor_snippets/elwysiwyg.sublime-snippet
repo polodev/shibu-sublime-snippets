@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'item_description',
+  [
+    'label' => __( 'Description', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::WYSIWYG,
+    'default' => __( 'Default description', 'plugin-domain' ),
+    'placeholder' => __( 'Type your description here', 'plugin-domain' ),
+  ]
+);
+]]></content>
+<tabTrigger>elwysiwyg</tabTrigger>
+<description>elementor wysiwyg</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

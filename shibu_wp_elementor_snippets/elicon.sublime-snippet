@@ -1,0 +1,29 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'icon',
+  [
+    'label' => __( 'Social Icons', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::ICON,
+    'include' => [
+      'fa fa-facebook',
+      'fa fa-flickr',
+      'fa fa-google-plus',
+      'fa fa-instagram',
+      'fa fa-linkedin',
+      'fa fa-pinterest',
+      'fa fa-reddit',
+      'fa fa-twitch',
+      'fa fa-twitter',
+      'fa fa-vimeo',
+      'fa fa-youtube',
+    ],
+    'default' => 'fa fa-facebook',
+  ]
+);
+
+]]></content>
+<tabTrigger>elicon</tabTrigger>
+<description>elementor icon</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

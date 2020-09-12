@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+@section('meta_content')
+    @include('meta::manager', [
+      'title'       => '',
+      'description' => '',
+      'keywords'    => '',
+      'image'       => asset('images/og/og_.jpg'),
+     ])
+@endsection
+
+@section('page_title', '| bimabd.com' )
+
+]]></content>
+<tabTrigger>metamanager</tabTrigger>
+<description>meta manager</description>
+<scope>text.blade, text.html.blade, custom.compiler.blade.php, punctuation.section.embedded.php, constant.other.inline-data.html</scope>
+</snippet>

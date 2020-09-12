@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+~~~go
+${0}
+~~~
+]]></content>
+<tabTrigger>codeg</tabTrigger>
+<description>code go</description>
+<scope>text.html.markdown, meta.paragraph.markdown, meta.code-fence.definition.begin.php.markdown-gfm, punctuation.definition.raw.code-fence.begin.markdown</scope>
+</snippet>

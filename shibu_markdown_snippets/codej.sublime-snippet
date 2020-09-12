@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+~~~js
+${0}
+~~~
+]]></content>
+<tabTrigger>codej</tabTrigger>
+<description>code js block</description>
+<scope>text.html.markdown, meta.paragraph.markdown, meta.code-fence.definition.begin.text.markdown-gfm, punctuation.definition.raw.code-fence.begin.markdown</scope>
+</snippet>

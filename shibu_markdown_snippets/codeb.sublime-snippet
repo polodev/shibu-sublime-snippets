@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+~~~bash
+${0}
+~~~
+]]></content>
+<tabTrigger>codeb</tabTrigger>
+<description>codeb</description>
+<scope>text.html.markdown, meta.paragraph.markdown, meta.code-fence.definition.begin.php.markdown-gfm, punctuation.definition.raw.code-fence.begin.markdown</scope>
+</snippet>

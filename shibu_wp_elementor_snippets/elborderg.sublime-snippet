@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+\$this->add_group_control(
+  \Elementor\Group_Control_Border::get_type(),
+  [
+    'name' => 'border',
+    'label' => __( 'Border', 'plugin-domain' ),
+    'selector' => '{{WRAPPER}} .wrapper',
+  ]
+);
+
+]]></content>
+<tabTrigger>elborderg</tabTrigger>
+<description>elborderg</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

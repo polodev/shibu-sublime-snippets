@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+<?php if ( is_active_sidebar( '${1}' ) ): ?>
+  <?php dynamic_sidebar( '${1}' ) ?>
+<?php endif ?>
+
+]]></content>
+<tabTrigger>wpias</tabTrigger>
+<description>wp is active sidebar</description>
+<scope>embedding.php, text.html.basic</scope>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+<div class="field">
+  <div class="control">
+    <label class="radio">
+      <input type="radio" name="${1:name_field}" value="${2:yes}">
+      ${2:Yes}
+    </label>
+    <label class="radio">
+      <input type="radio" name="${1:name_field}" value="${3:no}">
+      ${3:No}
+    </label>
+  </div>
+</div>
+
+]]></content>
+<tabTrigger>blradio</tabTrigger>
+<description>bulma radio</description>
+<scope>text.blade, text.html.blade, meta.tag.block.any.html, punctuation.definition.tag.begin.html</scope>
+</snippet>

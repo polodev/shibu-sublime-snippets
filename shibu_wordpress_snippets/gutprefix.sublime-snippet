@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+.wp-block.editor-block-list__block ${1}
+]]></content>
+<tabTrigger>gutprefix</tabTrigger>
+<description>gutenberg prefix </description>
+</snippet>

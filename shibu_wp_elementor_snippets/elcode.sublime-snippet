@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'custom_html',
+  [
+    'label' => __( 'Custom HTML', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::CODE,
+    'language' => 'html',
+    'rows' => 20,
+  ]
+);
+
+]]></content>
+<tabTrigger>elcode</tabTrigger>
+<description>elmentor code</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

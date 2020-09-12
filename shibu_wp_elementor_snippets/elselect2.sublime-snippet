@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'show_elements',
+  [
+    'label' => __( 'Show Elements', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::SELECT2,
+    'multiple' => true,
+    'options' => [
+      'title'  => __( 'Title', 'plugin-domain' ),
+      'description' => __( 'Description', 'plugin-domain' ),
+      'button' => __( 'Button', 'plugin-domain' ),
+    ],
+    'default' => [ 'title', 'description' ],
+  ]
+);
+
+]]></content>
+<tabTrigger>elselect2</tabTrigger>
+<description>elementor select2</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

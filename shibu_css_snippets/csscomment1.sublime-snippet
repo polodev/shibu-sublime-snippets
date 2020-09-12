@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+/*=======================================================================
+## ${0}
+=========================================================================*/
+]]></content>
+<tabTrigger>csscomment1</tabTrigger>
+<description>css comment 1</description>
+<scope>source.css, source.less, source.scss, entity.name.tag.scss, comment.block.css, punctuation.definition.comment.cssm comment.block.css, punctuation.definition.comment.css</scope>
+</snippet>

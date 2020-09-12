@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+\$this->add_group_control(
+  \Elementor\Group_Control_Box_Shadow::get_type(),
+  [
+    'name' => 'box_shadow',
+    'label' => __( 'Box Shadow', 'plugin-domain' ),
+    'selector' => '{{WRAPPER}} .wrapper',
+  ]
+);
+
+]]></content>
+<tabTrigger>elboxshadowg</tabTrigger>
+<description>elementor box shadow group</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

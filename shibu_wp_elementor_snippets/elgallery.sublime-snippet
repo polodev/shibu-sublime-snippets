@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'gallery',
+  [
+    'label' => __( 'Add Images', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::GALLERY,
+    'default' => [],
+  ]
+);
+
+]]></content>
+<tabTrigger>elgallery</tabTrigger>
+<description>elmentor gallery</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

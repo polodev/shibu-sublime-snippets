@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'image',
+  [
+    'label' => __( 'Choose Image', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::MEDIA,
+    'default' => [
+      'url' => \Elementor\Utils::get_placeholder_image_src(),
+    ],
+  ]
+);
+
+]]></content>
+<tabTrigger>elmedia</tabTrigger>
+<description>Elementor Media</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

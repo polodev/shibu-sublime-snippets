@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'margin',
+  [
+    'label' => __( 'Margin', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::DIMENSIONS,
+    'size_units' => [ 'px', '%', 'em' ],
+    'selectors' => [
+      '{{WRAPPER}} .your-class' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+    ],
+  ]
+);
+
+]]></content>
+<tabTrigger>eldimensions</tabTrigger>
+<description>elementor dimensions</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

@@ -1,0 +1,45 @@
+<snippet>
+<content><![CDATA[
+\$repeater = new \Elementor\Repeater();
+\$repeater->add_control(
+  'list_title', [
+    'label' => __( 'Title', '${1:domain}' ),
+    'type' => \Elementor\Controls_Manager::TEXT,
+    'default' => __( 'List Title' , '${1:domain}' ),
+    'label_block' => true,
+  ]
+);
+
+\$repeater->add_control(
+  'list_content', [
+    'label' => __( 'Content', '${1:domain}' ),
+    'type' => \Elementor\Controls_Manager::WYSIWYG,
+    'default' => __( 'List Content' , '${1:domain}' ),
+    'show_label' => false,
+  ]
+);
+
+\$this->add_control(
+  'list',
+  [
+    'label' => __( 'Repeater List', '${1:domain}' ),
+    'type' => \Elementor\Controls_Manager::REPEATER,
+    'fields' => \$repeater->get_controls(),
+    'default' => [
+      [
+        'list_title' => __( 'Title #1', '${1:domain}' ),
+        'list_content' => __( 'Item content. Click the edit button to change this text.', '${1:domain}' ),
+      ],
+      [
+        'list_title' => __( 'Title #2', '${1:domain}' ),
+        'list_content' => __( 'Item content. Click the edit button to change this text.', '${1:domain}' ),
+      ],
+    ],
+    'title_field' => '{{{ list_title }}}',
+  ]
+);
+]]></content>
+<tabTrigger>elrepeat</tabTrigger>
+<description>elementor repeat</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>

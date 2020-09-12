@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+${1:\$img} = Helper::generate_thumbnail_image(
+  ${2:get_the_ID()}, \$thumb_size, ${3:500}, ${4:400}
+);${0}
+]]></content>
+<tabTrigger>wpthumb</tabTrigger>
+<description>my thumbnail function </description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>

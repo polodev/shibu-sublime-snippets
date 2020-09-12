@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+get_theme_mod( '${1}', Helper::customizer_default_values( '${1}' ) )${0}
+]]></content>
+<tabTrigger>wpgtm</tabTrigger>
+<description>get theme mod</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function-call.php, variable.function.php</scope>
+</snippet>

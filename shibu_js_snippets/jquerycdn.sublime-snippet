@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+]]></content>
+<tabTrigger>jquerycdn</tabTrigger>
+<description>jquery minified cdn</description>
+<scope>text.html.basic, meta.tag.script.begin.html, punctuation.definition.tag.begin.html</scope>
+</snippet>

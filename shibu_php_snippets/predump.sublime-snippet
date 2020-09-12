@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+echo '<pre>__ ${1} __';
+var_dump(${1}${2});
+echo '</pre>';${0}
+]]></content>
+<tabTrigger>predump</tabTrigger>
+<description>echo pre tag</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, support.function.construct.php</scope>
+</snippet>

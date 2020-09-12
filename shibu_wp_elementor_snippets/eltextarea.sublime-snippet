@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'item_description',
+  [
+    'label' => __( 'Description', 'plugin-domain' ),
+    'type' => \Elementor\Controls_Manager::TEXTAREA,
+    'rows' => 10,
+    'default' => __( 'Default description', 'plugin-domain' ),
+    'placeholder' => __( 'Type your description here', 'plugin-domain' ),
+  ]
+);
+]]></content>
+<tabTrigger>eltextarea</tabTrigger>
+<description>elementor TEXTAREA</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

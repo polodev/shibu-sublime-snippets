@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+id="post-<?php the_ID(); ?>"
+]]></content>
+<tabTrigger>postid</tabTrigger>
+<description>post id snippet</description>
+<scope>embedding.php, text.html.basic, meta.tag.block.any.html</scope>
+</snippet>

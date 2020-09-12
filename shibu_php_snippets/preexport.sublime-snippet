@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+echo '<pre>__ ${1} __';
+var_export(${1}${2});
+echo '</pre>';${0}
+]]></content>
+<tabTrigger>preexport</tabTrigger>
+<description>echoing var_export encapsulate by pre tag</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, support.function.construct.php</scope>
+</snippet>

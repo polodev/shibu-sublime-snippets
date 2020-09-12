@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<?php echo esc_html( ${0} ); ?>
+]]></content>
+<tabTrigger>phpeh</tabTrigger>
+<description>php escape html </description>
+<scope>embedding.php, text.html.basic, meta.embedded.line.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

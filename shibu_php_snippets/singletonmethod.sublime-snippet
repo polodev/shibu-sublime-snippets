@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+private static \$_instance;
+public static function getInstance() {
+	if ( ! ( self::\$_instance instanceof self ) ) {
+		self::\$_instance = new self();
+	}
+	return self::\$_instance;
+}
+]]></content>
+<tabTrigger>singletonmethod</tabTrigger>
+<description>php singleton method</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, storage.modifier.php</scope>
+</snippet>

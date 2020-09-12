@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+@section('meta_content')
+  @include('meta::manager', [
+    'title'         => '${1}',
+    'description'   => '${2}',
+    'image'         => asset('images/${0}logo.png'),
+    'keywords'      => '${3}',
+  ])
+@endsection
+
+]]></content>
+<tabTrigger>lmeta</tabTrigger>
+<description>laravel meta content </description>
+<scope>text.blade, text.html.blade, custom.compiler.blade.php, punctuation.section.embedded.php, constant.other.inline-data.html</scope>
+</snippet>

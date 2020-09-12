@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+\$this->add_control(
+  'title',
+  [
+    'label' => __('${1:Title}', '${3:domain}'),
+    'type' => Controls_Manager::TEXT,
+    'label_block' => false,
+    'default' => __( '${2}', '${3:domain}' ),
+  ]
+);
+
+]]></content>
+<tabTrigger>eltext</tabTrigger>
+<description>elementor text</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php</scope>
+</snippet>

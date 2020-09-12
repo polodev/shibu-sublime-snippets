@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+<div class="field">
+  <div class="control">
+    <label class="checkbox">
+      <input name="${1:name_field}" type="checkbox">
+      ${2:I agree to the terms and conditions}
+    </label>
+  </div>
+</div>
+]]></content>
+<tabTrigger>blcheck</tabTrigger>
+<description>bulma checkbox</description>
+<scope>text.blade, text.html.blade, meta.tag.block.any.html, punctuation.definition.tag.begin.html</scope>
+</snippet>

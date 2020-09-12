@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<?php post_class(${1}); ?>
+]]></content>
+<tabTrigger>postclass</tabTrigger>
+<description>post class with php block</description>
+<scope>embedding.php, text.html.basic, meta.tag.block.any.html, meta.embedded.line.php, source.php</scope>
+</snippet>
