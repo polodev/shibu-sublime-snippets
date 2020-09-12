@@ -1,0 +1,39 @@
+{
+  "auto_complete_selector": "source, text",
+  "block_caret": false,
+  "caret_extra_top": 4,
+  "close_windows_when_empty": false,
+  "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    "node_modules",
+    "vendor"
+  ],
+  "font_face": "monaco",
+  "font_facea": "operator mono",
+  "font_faceb": "fira code",
+  "font_faced": "ubuntu mono",
+  "font_facee": "fira code",
+  "font_size": 18,
+  "gutter": true,
+  "highlight_line": false,
+  "ignored_packages":
+  [
+    "Jekyll"
+  ],
+  "line_numbers": true,
+  "line_padding_top": 4,
+  "line_padding_bottom": 3,
+  "show_full_path": true,
+  "spell_check": true,
+  "tab_size": 2,
+  "theme": "Adaptive.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "vintage_start_in_command_mode": true,
+  "word_wrap": false,
+  "wrap_width": 100
+}
