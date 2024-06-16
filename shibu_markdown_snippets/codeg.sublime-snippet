@@ -1,8 +1,8 @@
 <snippet>
 <content><![CDATA[
-~~~go
+```go
 ${0}
-~~~
+```
 ]]></content>
 <tabTrigger>codeg</tabTrigger>
 <description>code go</description>

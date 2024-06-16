@@ -1,8 +1,8 @@
 <snippet>
 <content><![CDATA[
-~~~bash
+```bash
 ${0}
-~~~
+```
 ]]></content>
 <tabTrigger>codeb</tabTrigger>
 <description>codeb</description>

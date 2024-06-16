@@ -1,8 +1,8 @@
 <snippet>
 <content><![CDATA[
-~~~js
+```js
 ${0}
-~~~
+```
 ]]></content>
 <tabTrigger>codej</tabTrigger>
 <description>code js block</description>

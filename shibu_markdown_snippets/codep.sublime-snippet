@@ -1,8 +1,8 @@
 <snippet>
 <content><![CDATA[
-~~~php
+```php
 ${0}
-~~~
+```
 
 ]]></content>
 <tabTrigger>codep</tabTrigger>
